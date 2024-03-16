@@ -1,0 +1,50 @@
+@primary-bg-color: rgb(222, 236, 248);
+@primary-tx-color: #fff;
+@secondary-bg-color: #047abe;
+@secondary-tx-color: #333;
+@primary-shadow: #000;
+
+@import "header.less";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: @primary-bg-color;
+    color: @secondary-tx-color;
+}
+
+.Imagen {
+    position: relative;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 250px;
+    height: 350px;
+    img{
+        border-radius: 50px;
+    }
+}
+
+.Bio, .experiencia, .contacto {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px @primary-shadow;
+
+    h2{
+        font-weight: bold;
+    }
+
+    p{
+        margin: 30px;
+    }
+}
+
+
+
+
